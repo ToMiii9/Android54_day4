@@ -1,0 +1,166 @@
+<!-- list_item_feed.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewCircular"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:srcCompat="@drawable/square_image"
+        android:background="@color/white"
+        android:scaleType="centerCrop"
+        android:src="@drawable/z5278550468462_8edd854fc7440b46e694800b697b3213" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Nam"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="78dp"
+        android:text="8 giờ"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Tí nị ys"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/screenshot_2024_03_24_005158"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:src="@drawable/pngtree_vector_icon_facebook_like_on_transparent_png_image_6709354"
+        android:layout_marginTop="503dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="503dp"
+        android:layout_toRightOf="@id/imageView4"
+        android:text="Thích"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv1"
+        android:layout_marginTop="503dp"
+        android:layout_marginLeft="60dp"
+        android:text="Bình luận"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="503dp"
+        android:layout_toRightOf="@id/tv4"
+        android:text="Gửi"
+        android:layout_marginLeft="60dp"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="503dp"
+        android:layout_toRightOf="@id/tv5"
+        android:layout_marginLeft="60dp"
+        android:text="Chia sẻ"
+        android:textSize="15dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/z5287676608541_9f5bf6d73c65ffdbd5704bfc75709f58"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="22dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/pngtree_vector_icon_facebook_like_on_transparent_png_image_6709354"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="4,5K"
+        android:layout_marginLeft="3dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentEnd="true"
+        android:text="130 bình luận"
+        android:layout_marginEnd="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentEnd="true"
+        android:text="45 lượt chia sẻ"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/___"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/x"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+</RelativeLayout>
